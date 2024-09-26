@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="flex items-center justify-center min-h-screen text-lg bg-veryDarkBlue">
+    <div class="wrapper w-[360px] space-y-4 font-light lg:grid lg:grid-cols-4 lg:w-[1200px] lg:gap-8 lg:space-y-0">
+        <div class="font-light card bg-darkBlue rounded-xl lg:flex lg:flex-col lg:row-span-2">
+            <div class="flex items-center p-8 bg-blue rounded-xl lg:flex-col lg:items-start lg:h-4/5">
+                <img class="w-20 h-20 mr-6 border-4 border-white rounded-full lg:mb-10" src="./img/image-jeremy.png"
+                    alt="Jeremy">
+                <div>
+                    <p class="text-base text-paleBlue">Report for</p>
+                    <p class="text-2xl text-white lg:text-4xl">Jeremy Robson</p>
+                </div>
+            </div>
+            <div class="flex justify-between px-8 py-6 text-desaturatedBlue lg:flex-col lg:items-start lg:space-y-4">
+                <button class="transition-colors hover:text-white">Daily</button>
+                <button class="text-white">Weekly</button>
+                <button class="transition-colors hover:text-white">Monthly</button>
+            </div>
+        </div>
+        <div class="relative pt-10 overflow-hidden text-white card bg-lightOrange rounded-xl">
+            <img src="./img/icon-work.svg" alt="" class="absolute right-6 -top-2">
+            <div class="relative z-10 p-8 py-6 transition-colors bg-darkBlue rounded-xl hover:bg-desaturatedBlue">
+                <div class="flex items-center justify-between">
+                    <h3 class="font-bold">Work</h3>
+                    <img src="img/icon-ellipsis.svg" alt="" class="">
+                </div>
+                <div class="flex items-center justify-between lg:flex-col lg:items-start lg:mt-6">
+                    <p class="text-3xl lg:mb-6 lg:text-6xl">32hrs</p>
+                    <p class="text-base text-paleBlue">Last week - 36hrs</p>
+                </div>
+            </div>
+        </div>
+        <div class="relative pt-10 overflow-hidden text-white card bg-softBlue rounded-xl">
+            <img src="./img/icon-play.svg" alt="" class="absolute right-6 -top-2">
+            <div class="relative z-10 p-8 py-6 transition-colors bg-darkBlue rounded-xl hover:bg-desaturatedBlue">
+                <div class="flex items-center justify-between">
+                    <h3 class="font-bold">Play</h3>
+                    <img src="img/icon-ellipsis.svg" alt="" class="">
+                </div>
+                <div class="flex items-center justify-between lg:flex-col lg:items-start lg:mt-6">
+                    <p class="text-3xl lg:mb-6 lg:text-6xl">10hrs</p>
+                    <p class="text-base text-paleBlue">Last week - 8hrs</p>
+                </div>
+            </div>
+        </div>
+        <div class="relative pt-10 overflow-hidden text-white card bg-lightRed rounded-xl">
+            <img src="./img/icon-study.svg" alt="" class="absolute right-6 -top-2">
+            <div class="relative z-10 p-8 py-6 transition-colors bg-darkBlue rounded-xl hover:bg-desaturatedBlue">
+                <div class="flex items-center justify-between">
+                    <h3 class="font-bold">Study</h3>
+                    <img src="img/icon-ellipsis.svg" alt="" class="">
+                </div>
+                <div class="flex items-center justify-between lg:flex-col lg:items-start lg:mt-6">
+                    <p class="text-3xl lg:mb-6 lg:text-6xl">4hrs</p>
+                    <p class="text-base text-paleBlue">Last week - 7hrs</p>
+                </div>
+            </div>
+        </div>
+        <div class="relative pt-10 overflow-hidden text-white card bg-limeGreen rounded-xl">
+            <img src="./img/icon-exercise.svg" alt="" class="absolute right-6 -top-2">
+            <div class="relative z-10 p-8 py-6 transition-colors bg-darkBlue rounded-xl hover:bg-desaturatedBlue">
+                <div class="flex items-center justify-between">
+                    <h3 class="font-bold">Exercise</h3>
+                    <img src="img/icon-ellipsis.svg" alt="" class="">
+                </div>
+                <div class="flex items-center justify-between lg:flex-col lg:items-start lg:mt-6">
+                    <p class="text-3xl lg:mb-6 lg:text-6xl">4hrs</p>
+                    <p class="text-base text-paleBlue">Last week - 5hrs</p>
+                </div>
+            </div>
+        </div>
+        <div class="relative pt-10 overflow-hidden text-white card bg-violet rounded-xl">
+            <img src="./img/icon-social.svg" alt="" class="absolute right-6 -top-2">
+            <div class="relative z-10 p-8 py-6 transition-colors bg-darkBlue rounded-xl hover:bg-desaturatedBlue">
+                <div class="flex items-center justify-between">
+                    <h3 class="font-bold">Social</h3>
+                    <img src="img/icon-ellipsis.svg" alt="" class="">
+                </div>
+                <div class="flex items-center justify-between lg:flex-col lg:items-start lg:mt-6">
+                    <p class="text-3xl lg:mb-6 lg:text-6xl">5hrs</p>
+                    <p class="text-base text-paleBlue">Last week - 10hrs</p>
+                </div>
+            </div>
+        </div>
+        <div class="relative pt-10 overflow-hidden text-white card bg-softOrange rounded-xl">
+            <img src="./img/icon-self-care.svg" alt="" class="absolute right-6 -top-2">
+            <div class="relative z-10 p-8 py-6 transition-colors bg-darkBlue rounded-xl hover:bg-desaturatedBlue">
+                <div class="flex items-center justify-between">
+                    <h3 class="font-bold">Self Care</h3>
+                    <img src="img/icon-ellipsis.svg" alt="" class="">
+                </div>
+                <div class="flex items-center justify-between lg:flex-col lg:items-start lg:mt-6">
+                    <p class="text-3xl lg:mb-6 lg:text-6xl">2hrs</p>
+                    <p class="text-base text-paleBlue">Last week - 2hrs</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
